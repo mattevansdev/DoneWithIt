@@ -5,7 +5,7 @@ import AppButton from "../components/AppButton";
 function WelcomeScreen(props) {
   return (
     <ImageBackground
-    blurRadius={10}
+      blurRadius={10}
       style={styles.background}
       source={require("../assets/background.jpg")}
     >
@@ -14,8 +14,8 @@ function WelcomeScreen(props) {
         <Text style={styles.tagline}>Sell What You Don't Need</Text>
       </View>
       <View style={styles.buttonsContainer}>
-      <AppButton title="Login" />
-      <AppButton title="Signup" color="secondary" />
+        <AppButton title="Login" />
+        <AppButton title="Signup" color="secondary" />
       </View>
     </ImageBackground>
   );
@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   tagline: {
-    fontSize: 25, 
+    fontSize: 25,
     fontWeight: "600",
     paddingVertical: 20,
   }
