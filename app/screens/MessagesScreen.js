@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { FlatList, StyleSheet, View } from 'react-native'
+import { FlatList, StyleSheet } from 'react-native'
 
 import ListItem from '../components/ListItem'
 import ListItemDeleteAction from '../components/ListItemDeleteAction';
@@ -9,14 +9,14 @@ import Screen from '../components/Screen';
 const initialMessages = [
     {
         id: 1,
-        title: 'T1',
-        description: 'D1',
+        title: 'Matt Evans',
+        description: 'Hi. Is this item still available?',
         image: require('../assets/mosh.jpg')
     },
     {
         id: 2,
-        title: 'T2',
-        description: 'D2',
+        title: 'Matt Evans',
+        description: 'Is this item available?',
         image: require('../assets/mosh.jpg')
     }
 ]
